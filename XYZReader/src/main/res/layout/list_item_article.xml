@@ -6,6 +6,7 @@
     android:layout_marginRight="4dp"
     android:layout_marginTop="4dp"
     android:layout_marginBottom="4dp"
+    android:elevation="8dp"
     android:clickable="true"
     android:focusable="true"
     android:foreground="?selectableItemBackground">
@@ -21,7 +22,9 @@
             android:layout_width="100dp"
             android:scaleType="centerCrop"
             android:layout_height="100dp"
-            android:background="@color/photo_placeholder" />
+            android:background="@color/photo_placeholder"
+            android:transitionName="@string/transition_photo"
+            />
 
         <TextView
             android:id="@+id/article_title"
